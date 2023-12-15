@@ -68,6 +68,21 @@ body{
     font-weight: 500;
     line-height: 100px;
 }
+#left h1:nth-last-child(1){
+    margin-left: 30px;
+}
+#left h1 span img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-left: -20px;
+    border: 2px solid black;
+}
+#left h1 span img :nth-child(1){
+    margin-left: 0;
+}
 #right img{
     height: 90%;
     width: 90%;

@@ -32,6 +32,7 @@ gsap.from("#page2 .box",{
     duration: 1,
     scrollTrigger:{
        trigger: "#page2 .box",
-       scroller: "body" 
+       scroller: "body",
+       start: "top 70%"
     }
 })
